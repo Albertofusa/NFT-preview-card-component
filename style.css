@@ -35,7 +35,7 @@ body {
 }
 
 .card-img-central {
-  height: 55%;
+  height: 60%;
   width: 100%;
   object-fit: cover;
   cursor: pointer;
@@ -89,8 +89,8 @@ body {
 }
 
 .card-information-img-end {
-  height: 10%;
-  width: 10%;
+  height: 12%;
+  width: 12%;
 }
 
 .card-information-p-end {

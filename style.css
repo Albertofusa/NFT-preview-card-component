@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --color-parrafo: hsl(215, 51%, 70%);
+  --color-parrafo-numbers: hsl(178, 100%, 50%);
+  --color-fondo: hsl(217, 54%, 11%);
+  --color-card: hsl(216, 50%, 16%);
+  --color-line: hsl(215, 32%, 27%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 90%;
+  width: 27%;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 1px 0px 17px 8px rgba(0, 0, 0, 0.82);
+  padding: 20px;
+}
+
+.card-img-central {
+  height: 55%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card-title:hover {
+  color: var(--color-parrafo-numbers);
+}
+
+.card-first-p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.card-information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.card-numbers-date {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.p-numbers {
+  color: hsl(178, 100%, 50%);
+}
+
+.p-date {
+  color: hsl(215, 51%, 70%);
+}
+
+.card-information-end {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 20px;
+}
+
+.card-information-img-end {
+  height: 10%;
+  width: 10%;
+}
+
+.card-information-p-end {
+  color: hsl(215, 51%, 70%);
+}
+
+.last-p {
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+}
+
+.last-p:hover {
+  color: var(--color-parrafo-numbers);
+}
